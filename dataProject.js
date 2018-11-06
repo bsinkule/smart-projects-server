@@ -7,6 +7,7 @@ module.exports = [{
 	backendHours: 160,
 	startDate: "12-3-18", 
 	endDate: "1-28-19",
+	mobileNumber: 3036181934,
 	auth_id: "auth0|5bd1e9313f325f0d8f80cb9b" 
 },{
   	projectName: "Pasta Site",
@@ -17,6 +18,7 @@ module.exports = [{
 	backendHours: 320,
 	startDate: "11-19-18", 
 	endDate: "3-18-19",
+	mobileNumber: 3036181934,
 	auth_id: "auth0|5bd1e9313f325f0d8f80cb9b" 
 },{
 	projectName: "Pizza Site",
@@ -27,6 +29,7 @@ module.exports = [{
 	backendHours: 80,
 	startDate: "2-4-19", 
 	endDate: "3-4-19",
+	mobileNumber: 3036181934,
 	auth_id: "auth0|5bd1e9313f325f0d8f80cb9b" 
 },{
 	projectName: "Monkey Site",
@@ -37,6 +40,7 @@ module.exports = [{
 	backendHours: 220,
 	startDate: "11-19-18", 
 	endDate: "4-15-19",
+	mobileNumber: 3036181934,
 	auth_id: "auth0|5bd1e9313f325f0d8f80cb9b" 
 },{
 	projectName: "Pumpkin Build",
@@ -47,5 +51,6 @@ module.exports = [{
 	backendHours: 420,
 	startDate: "3-18-19", 
 	endDate: "4-15-19",
+	mobileNumber: 3036181934,
 	auth_id: "auth0|5bd1e9313f3" 
 }]

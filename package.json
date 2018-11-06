@@ -4,17 +4,23 @@
   "private": true,
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "server": "node-env-run server --exec nodemon | pino-colada"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
     "cookie-parser": "~1.4.3",
     "cors": "^2.8.4",
     "debug": "~2.6.9",
     "express": "~4.16.0",
+    "express-pino-logger": "^4.0.0",
     "http-errors": "~1.6.2",
     "knex": "^0.15.2",
     "morgan": "~1.9.0",
-    "pg": "^7.5.0"
+    "node-env-run": "^3.0.2",
+    "pg": "^7.5.0",
+    "pino-colada": "^1.4.4",
+    "twilio": "^3.23.2"
   },
   "devDependencies": {
     "nodemon": "^1.18.4"

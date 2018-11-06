@@ -9,6 +9,7 @@ exports.up = function (knex, Promise) {
         table.float('backendHours')
         table.text('startDate')
         table.text('endDate')
+        table.bigInteger('mobileNumber')
         table.text('auth_id')
         })
     }
